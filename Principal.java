@@ -1,4 +1,4 @@
-package br.com.main;
+package br.com;
 
 import java.util.Scanner;
 
@@ -26,7 +26,7 @@ public class Principal {
 		altura = scanner.nextDouble();
 		
 		Calcular calcular = new Calcular();
-		System.out.println("Resultado: " + calcular.calcularIMC(peso, altura));
+		System.out.println("Resultado: " + calcular.getImc(peso, altura));
 		end = scanner.nextDouble();
 		
 		if (end > 20) {
